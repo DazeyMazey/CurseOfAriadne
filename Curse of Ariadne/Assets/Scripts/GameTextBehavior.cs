@@ -24,6 +24,7 @@ public class GameTextBehavior : MonoBehaviour
             // add send command to game later
             textbars.text += "\n> " + field.text;
             field.text = "";
+            field.ActivateInputField();
         }
     }
 }
